@@ -20,7 +20,7 @@ Support for Modern Frameworks
 using Cache.Caches;
 
 // Create a new LRU cache with a capacity of 1000 items
-var cache = new LruCache<string>(capacity: 1000);
+var cache = new LruCache<string, string>(capacity: 1000);
 
 // Add items
 cache.Put("key1", "value1");
